@@ -37,9 +37,10 @@ public class SortAnagrams
     {
         String[] words = {"cheng", "ozgn", "sun", "nus", "zong", "enchg", "usn"};
 
+        // O(n) time and space
         sortAnagrams(words);
 
-        // Lambda in-place sorting but takes nlg(n) time
+        // Lambda in-place sorting but takes O(nlg(n)) time
         Arrays.sort(words, (s1, s2) -> sortWord(s1).compareTo(sortWord(s2)));
 
         for (String word : words) {
