@@ -41,6 +41,10 @@ public class BinarySearch
     {
         int low = 0, high = a.length - 1;
 
+        if (a[low] == 1 || a[high] == 0) {
+            throw new RuntimeException("Invalid input array...");
+        }
+
         while (low <= high)
         {
             int res = (low + high) / 2;
@@ -63,7 +67,9 @@ public class BinarySearch
         System.out.println(binarySearchRecursive(nums, 5, 0, nums.length - 1));
 
 
-        int[] a = {0, 0, 0, 0, 0, 1};
-        System.out.println(findFirstOne(a));
+        int[] a = {0};
+//        System.out.println(findFirstOne(a));
+
+        System.out.println(Math.log(8));
     }
 }

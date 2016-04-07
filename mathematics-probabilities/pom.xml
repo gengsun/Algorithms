@@ -8,14 +8,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>sun.test.algorithms</groupId>
-  <artifactId>sort-searching</artifactId>
+  <artifactId>mathematics-probabilities</artifactId>
   <packaging>jar</packaging>
 
-  <name>sort-searching</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  <name>mathematics-probabilities</name>
 
 </project>

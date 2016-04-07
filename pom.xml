@@ -11,7 +11,8 @@
 
   <modules>
     <module>sort-searching</module>
-    <module>recursive-dynamicprogramming</module>
+    <module>recursive-dynamic-programming</module>
+    <module>mathematics-probabilities</module>
   </modules>
 
   <dependencies>
