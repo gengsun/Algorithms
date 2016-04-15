@@ -7,18 +7,14 @@ import java.util.Arrays;
  */
 public class LargestNumber
 {
-    private static String integersToString(Integer a, Integer b)
+    private static String integersToString(int a, int b)
     {
-        return b.toString() + a.toString();
+        return String.valueOf(b) + String.valueOf(a);
     }
 
     public static void main(String[] args)
     {
-        int[] aa = {3, 30, 34, 5, 9};
-        Integer[] nums = new Integer[aa.length];
-        for (int i = 0; i<aa.length; i++) {
-            nums[i] = aa[i];
-        }
+        Integer[] nums = {3, 30, 34, 5, 9};
 
         Arrays.sort(nums, (a, b)  -> integersToString(a, b).compareTo(integersToString(b, a)));
 

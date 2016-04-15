@@ -13,6 +13,7 @@
     <module>sort-searching</module>
     <module>recursive-dynamic-programming</module>
     <module>mathematics-probabilities</module>
+    <module>arrays-strings</module>
   </modules>
 
   <dependencies>

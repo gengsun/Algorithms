@@ -66,10 +66,7 @@ public class BinarySearch
         System.out.println(binarySearch(nums, 0));
         System.out.println(binarySearchRecursive(nums, 5, 0, nums.length - 1));
 
-
-        int[] a = {0};
-//        System.out.println(findFirstOne(a));
-
-        System.out.println(Math.log(8));
+        int[] a = {0, 0, 1};
+        System.out.println(findFirstOne(a));
     }
 }
