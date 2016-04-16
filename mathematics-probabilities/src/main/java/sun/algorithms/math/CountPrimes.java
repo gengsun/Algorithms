@@ -14,7 +14,7 @@ public class CountPrimes
 
         for (int i = 2; i * i < n + 1; i++)
         {
-            if (isPrimes[i] == false)
+            if (!isPrimes[i])
                 continue;
 
             for (int j = i * i; j < n + 1; j += i) {
@@ -27,10 +27,10 @@ public class CountPrimes
 
     public static void main(String[] args)
     {
-        boolean[] isPrimes = countPrimes(10000);
+        boolean[] isPrimes = countPrimes(97);
 
         for (int i = 0; i < isPrimes.length; i++) {
-            if (isPrimes[i] == true)
+            if (isPrimes[i])
                 System.out.println(i);
         }
     }
