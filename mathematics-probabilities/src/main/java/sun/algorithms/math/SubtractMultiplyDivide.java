@@ -72,6 +72,6 @@ public class SubtractMultiplyDivide
     {
         System.out.println(subtract(7, 9));
         System.out.println(multiply(-5, -9));
-        System.out.println(divide(-7, -5));
+        System.out.println(divide(-7, -9));
     }
 }
