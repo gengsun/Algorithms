@@ -1,8 +1,5 @@
 package sun.algorithms.math;
 
-import java.util.Iterator;
-import java.util.Stack;
-
 /**
  * Created by sun on 05/04/16.
  */
@@ -14,6 +11,14 @@ public class PowerOfThree
             return false;
 
         return (Math.log10(n) / Math.log10(3)) % 1 == 0;
+    }
+
+    public static boolean isPowerOfTwo(int n)
+    {
+        if (n == 0)
+            return false;
+
+        return (n & (n - 1)) == 0;
     }
 
     public static boolean isPowerOfThreeLoop(int n)
@@ -49,5 +54,6 @@ public class PowerOfThree
         System.out.println(isPowerOfThreeLog(3));
         System.out.println(isPowerOfThreeLoop(243));
         System.out.println(isPowerOfThree(27));
+        System.out.println(isPowerOfTwo(1024));
     }
 }
